@@ -1,0 +1,17 @@
+.product {
+    background-color: darkturquoise;
+    color: black;
+    padding: 10px;
+}
+
+.product p{
+    margin: 0;
+}
+
+.productImage {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    padding: 10px;
+}
