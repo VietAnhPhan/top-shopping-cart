@@ -1,15 +1,15 @@
-import { useState } from "react";
 import Header from "../Header/Header";
 import Product from "../Product/Product";
 import { UseProducts } from "../UseProducts";
 import styles from "./Shop.module.css";
+import { useOutletContext } from "react-router-dom";
 
 function Shop() {
   const { products, error, loading } = UseProducts(
     "https://fakestoreapi.com/products"
   );
 
-  const [cart, setCart] = useState([]);
+  const {cart, setCart} = useOutletContext();
 
   function addToCart(data) {
     const productsInCart = [...cart];
@@ -22,7 +22,6 @@ function Shop() {
 
   return (
     <>
-      <Header productsInCart={cart}></Header>
       <main>
         <h1>Our Products</h1>
         <div className={styles.products}>

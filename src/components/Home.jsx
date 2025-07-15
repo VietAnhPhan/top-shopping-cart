@@ -1,10 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import Header from "./Header/Header";
+import { useState } from "react";
 
 function Home() {
+  const [cart, setCart] = useState([]);
+
   return (
     <>
-      <Header></Header>
+      <Header totalProductsCart={cart.length}></Header>
       <main>
         <h1>Welcome to our online store! We're so glad you're here.</h1>
         <p>
@@ -15,6 +18,7 @@ function Home() {
         </p>
         <Link to="/shop">Shop now</Link>
       </main>
+      <Outlet context={{ cart, setCart }}></Outlet>
     </>
   );
 }
