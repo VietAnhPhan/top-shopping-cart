@@ -13,6 +13,7 @@ function ProductInCart({ data }) {
           <p>${data.price}</p>
           <p>{data.description.substring(0, 60) + "..."}</p>
           <p>{data.category}</p>
+          <p>{data.total}</p>
       </div>
       {/* <button onClick={() => handleAdd(data)}>Add to Cart</button> */}
     </div>
