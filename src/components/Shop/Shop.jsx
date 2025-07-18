@@ -1,4 +1,3 @@
-import Header from "../Header/Header";
 import Product from "../Product/Product";
 import { UseProducts } from "../UseProducts";
 import styles from "./Shop.module.css";
@@ -9,7 +8,7 @@ function Shop() {
     "https://fakestoreapi.com/products"
   );
 
-  const {cart, setCart} = useOutletContext();
+  const { cart, setCart } = useOutletContext();
 
   function addToCart(data) {
     const productsInCart = [...cart];
@@ -30,6 +29,7 @@ function Shop() {
               key={product.id}
               data={product}
               onAdd={addToCart}
+              data-testid="product-data-testid"
             ></Product>
           ))}
         </div>

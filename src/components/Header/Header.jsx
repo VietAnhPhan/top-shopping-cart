@@ -13,7 +13,7 @@ function Header({ totalProductsCart }) {
             <Link to="/shop">Shop</Link>
           </li>
           <li className={styles.menuItem}>
-            <Link to="/cart" state={totalProductsCart}>
+            <Link to="/cart">
               Cart ({totalProductsCart})
             </Link>
           </li>

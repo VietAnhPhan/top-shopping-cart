@@ -21,7 +21,12 @@ function Product({ data, onAdd }) {
       <p>{data.description.substring(0, 20) + "..."}</p>
       <p>{data.category}</p>
       <div>
-        <input type="number" value={total} onChange={handleTotalChange} min={1}/>
+        <input
+          type="number"
+          value={total}
+          onChange={handleTotalChange}
+          min={1}
+        />
       </div>
       <button onClick={() => handleAdd(data)}>Add to Cart</button>
     </div>

@@ -7,6 +7,7 @@ function Home() {
   const [cart, setCart] = useState([]);
 
   function getTotalProducts() {
+    
     const total = cart.reduce(
       (accumulator, product) => accumulator + parseInt(product.total),
       0
@@ -14,8 +15,6 @@ function Home() {
 
     return total;
   }
-
-  
 
   return (
     <>
