@@ -7,7 +7,8 @@ function Cart() {
 
   function totalPrice() {
     const total = cart.reduce(
-      (accumulaltor, currentProd) => accumulaltor + currentProd.price,
+      (accumulaltor, currentProd) =>
+        accumulaltor + currentProd.price * currentProd.total,
       0
     );
 

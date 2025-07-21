@@ -16,23 +16,25 @@ function Shop() {
     setCart(productsInCart);
   }
 
-  if (loading) return <p>Loading...</p>;
+  // if (loading) return <p>Loading...</p>;
   if (error) return <p>Something wrong</p>;
 
   return (
     <>
       <main>
         <h1>Our Products</h1>
-        <div className={styles.products}>
-          {products.map((product) => (
-            <Product
-              key={product.id}
-              data={product}
-              onAdd={addToCart}
-              data-testid="product-data-testid"
-            ></Product>
-          ))}
-        </div>
+        {loading && <p>Loading...</p>}
+        {!loading && (
+          <div className={styles.products}>
+            {products.map((product) => (
+              <Product
+                key={product.id}
+                data={product}
+                onAdd={addToCart}
+              ></Product>
+            ))}
+          </div>
+        )}
       </main>
     </>
   );

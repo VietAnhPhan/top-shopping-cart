@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
 function Header({ totalProductsCart }) {
@@ -13,9 +13,7 @@ function Header({ totalProductsCart }) {
             <Link to="/shop">Shop</Link>
           </li>
           <li className={styles.menuItem}>
-            <Link to="/cart">
-              Cart ({totalProductsCart})
-            </Link>
+            <Link data-testid="cart-data-testid" to="/cart">Cart ({totalProductsCart})</Link>
           </li>
         </ul>
       </nav>

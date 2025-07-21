@@ -1,0 +1,331 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App component > navigation 1`] = `
+<div>
+  <header>
+    <nav>
+      <ul
+        class="_menuItems_a5b977"
+      >
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/shop"
+          >
+            Shop
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/cart"
+          >
+            Cart (
+            0
+            )
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <main>
+      <h1>
+        Welcome to our online store! We're so glad you're here.
+      </h1>
+      <p>
+        Step into a world of endless possibilities, where quality meets convenience. Whether you're searching for the latest trends, everyday essentials, or unique gifts, we've carefully curated a collection that we know you'll love.
+      </p>
+      <a
+        data-discover="true"
+        href="/shop"
+      >
+        Shop now
+      </a>
+    </main>
+  </main>
+  <footer>
+    <p>
+      @2025 Anh Phan
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`App component > render 1`] = `
+<div>
+  <header>
+    <nav>
+      <ul
+        class="_menuItems_a5b977"
+      >
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/shop"
+          >
+            Shop
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/cart"
+          >
+            Cart (
+            0
+            )
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <main>
+      <h1>
+        Welcome to our online store! We're so glad you're here.
+      </h1>
+      <p>
+        Step into a world of endless possibilities, where quality meets convenience. Whether you're searching for the latest trends, everyday essentials, or unique gifts, we've carefully curated a collection that we know you'll love.
+      </p>
+      <a
+        data-discover="true"
+        href="/shop"
+      >
+        Shop now
+      </a>
+    </main>
+  </main>
+  <footer>
+    <p>
+      @2025 Anh Phan
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`App component > render product 1`] = `
+<div>
+  <header>
+    <nav>
+      <ul
+        class="_menuItems_a5b977"
+      >
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/shop"
+          >
+            Shop
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/cart"
+          >
+            Cart (
+            0
+            )
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <main>
+      <h1>
+        Welcome to our online store! We're so glad you're here.
+      </h1>
+      <p>
+        Step into a world of endless possibilities, where quality meets convenience. Whether you're searching for the latest trends, everyday essentials, or unique gifts, we've carefully curated a collection that we know you'll love.
+      </p>
+      <a
+        data-discover="true"
+        href="/shop"
+      >
+        Shop now
+      </a>
+    </main>
+  </main>
+  <footer>
+    <p>
+      @2025 Anh Phan
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`App component > render product components 1`] = `
+<div>
+  <header>
+    <nav>
+      <ul
+        class="_menuItems_a5b977"
+      >
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/shop"
+          >
+            Shop
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/cart"
+          >
+            Cart (
+            0
+            )
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <main>
+      <h1>
+        Welcome to our online store! We're so glad you're here.
+      </h1>
+      <p>
+        Step into a world of endless possibilities, where quality meets convenience. Whether you're searching for the latest trends, everyday essentials, or unique gifts, we've carefully curated a collection that we know you'll love.
+      </p>
+      <a
+        data-discover="true"
+        href="/shop"
+      >
+        Shop now
+      </a>
+    </main>
+  </main>
+  <footer>
+    <p>
+      @2025 Anh Phan
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`App component > renders product components 1`] = `
+<div>
+  <header>
+    <nav>
+      <ul
+        class="_menuItems_a5b977"
+      >
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/shop"
+          >
+            Shop
+          </a>
+        </li>
+        <li
+          class="_menuItem_a5b977"
+        >
+          <a
+            data-discover="true"
+            href="/cart"
+          >
+            Cart (
+            0
+            )
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <main>
+      <h1>
+        Welcome to our online store! We're so glad you're here.
+      </h1>
+      <p>
+        Step into a world of endless possibilities, where quality meets convenience. Whether you're searching for the latest trends, everyday essentials, or unique gifts, we've carefully curated a collection that we know you'll love.
+      </p>
+      <a
+        data-discover="true"
+        href="/shop"
+      >
+        Shop now
+      </a>
+    </main>
+  </main>
+  <footer>
+    <p>
+      @2025 Anh Phan
+    </p>
+  </footer>
+</div>
+`;

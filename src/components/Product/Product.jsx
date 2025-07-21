@@ -14,10 +14,16 @@ function Product({ data, onAdd }) {
   }
 
   return (
-    <div key={data.id} className={styles.product}>
+    <div
+      key={data.id}
+      className={styles.product}
+      data-testid="product-data-testid"
+    >
       <img className={styles.productImage} src={data.image}></img>
-      <p>{data.title.substring(0, 20) + "...."}</p>
-      <p>${data.price}</p>
+      <p data-testid="product-title-data-testid">
+        {data.title.substring(0, 20) + "...."}
+      </p>
+      <p className={styles.productPrice} data-testid="price">${data.price}</p>
       <p>{data.description.substring(0, 20) + "..."}</p>
       <p>{data.category}</p>
       <div>
@@ -26,6 +32,7 @@ function Product({ data, onAdd }) {
           value={total}
           onChange={handleTotalChange}
           min={1}
+          data-testid="total"
         />
       </div>
       <button onClick={() => handleAdd(data)}>Add to Cart</button>
